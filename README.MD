@@ -102,7 +102,7 @@ https://docs.github.com/pt/copilot/quickstart
 
 👤 **anderson.lima.dev**
 
-* Website: instagram.com/anderson.lima.dev
+* Website: [@anderson.lima.dev](instagram.com/anderson.lima.dev)
 * Twitter: [@anderson.lima.dev](https://twitter.com/anderson.lima.dev)
 * Github: [@andersonlimahw](https://github.com/andersonlimahw)
 * LinkedIn: [@andersonlimahw](https://linkedin.com/in/andersonlimahw)

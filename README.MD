@@ -42,7 +42,7 @@ Aqui estão alguns exemplos de aliases úteis que você pode adicionar ao seu ar
     undo = reset HEAD~1 --mixed
     amend = commit -a --amend
     wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
-    save = "!f() { git status && git add . && git commit -m \"💾 [style] ${1}\" && git status && git push;}; f"
+    save = "!f() { git status && git add . && git commit -m \"💾 [checkpoint] ${1}\" && git status && git push;}; f"
     ...
 ```
 

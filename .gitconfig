@@ -19,7 +19,7 @@
 	undo = reset HEAD~1 --mixed
 	amend = commit -a --amend
 	wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
-	save = "!f() { git status && git add . && git commit -m \"💾 [style] ${1}\" && git status && git push;}; f"                 #💾 salva o progresso e faz o push;
+	save = "!f() { git status && git add . && git commit -m \"💾 [checkpoint] ${1}\" && git status && git push;}; f"                 #💾 salva o progresso e faz o push;
 	bclean = "!f() { git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs git branch -d; }; f"
 	bdone = "!f() { git checkout ${1-master} && git up && git bclean ${1-master}; }; f"	
 	commit-style = "!f() { git commit -m \"🎨 [style] ${1}\"; }; f"                 #🎨 melhorar a estrutura/formato do código;
